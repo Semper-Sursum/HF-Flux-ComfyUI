@@ -1,0 +1,15 @@
+[project]
+name = "hf-flux-comfyui"
+description = "This custom node for ComfyUI enables direct integration with Hugging Face Flux models for image generation via API. Users can leverage the power of Flux models like FLUX.1 [schnell] and FLUX.1 [dev] without leaving the ComfyUI environment"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["requests", "numpy", "torch", "Pillow"]
+
+[project.urls]
+Repository = "https://github.com/Semper-Sursum/HF-Flux-ComfyUI"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "HF-Flux-ComfyUI"
+Icon = ""

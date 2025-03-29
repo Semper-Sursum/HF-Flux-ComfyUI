@@ -1,15 +1,14 @@
 [project]
-name = HF-Flux-ComfyUI
- # Unique identifier for your node (cannot be changed later)
-description = This custom node allows you to generate images directly from text prompts using Hugging Face's text-to-image models within ComfyUI. It provides a simple interface to leverage powerful AI models like FLUX.1-dev without leaving your ComfyUI workflow.
-version = "1.0.0" # Must follow semantic versioning
+name = "HF-Flux-ComfyUI"
+description = "This custom node allows you to generate images directly from text prompts using Hugging Face's text-to-image models within ComfyUI. It provides a simple interface to leverage powerful AI models like FLUX.1-dev without leaving your ComfyUI workflow."
+version = "1.0.0"
 license = { file = "LICENSE.txt" }
-dependencies = [] # Will be filled from requirements.txt
+dependencies = []
 
 [project.urls]
-Repository = https://github.com/Semper-Sursum/HF-Flux-ComfyUI
+Repository = "https://github.com/Semper-Sursum/HF-Flux-ComfyUI"
 
 [tool.comfy]
-PublisherId = semper-sursum # Add your Publisher ID from the registry
-DisplayName = HF-Flux-ComfyUI # Can be changed later
-Icon = "https://example.com/icon.png" # Optional: URL to your node icon
+PublisherId = "semper-sursum"
+DisplayName = "HF-Flux-ComfyUI"
+Icon = "https://example.com/icon.png"
